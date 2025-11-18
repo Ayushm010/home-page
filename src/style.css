@@ -41,3 +41,9 @@ input, textarea, select, button {
 body{
 background-color:aqua;
 }
+
+
+.pfpImg{
+  height: 400px;
+  width: auto;
+}
