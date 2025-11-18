@@ -1,0 +1,43 @@
+/* Universal reset for margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Includes padding and border in element's total width/height */
+}
+
+/* Reset for specific elements */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd,
+form, fieldset, legend, input, textarea, select, button,
+table, th, td, caption, figure, figcaption, blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+/* Base styles for images and media */
+img, video {
+  max-width: 100%;
+  height: auto;
+  display: block; /* Prevents extra space below images */
+}
+
+/* Remove default list styles */
+ul, ol {
+  list-style: none;
+}
+
+/* Reset for table elements */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Reset for form elements */
+input, textarea, select, button {
+  font-family: inherit; /* Inherit font from parent */
+  font-size: inherit; /* Inherit font size from parent */
+}
+
+
+body{
+background-color:aqua;
+}
